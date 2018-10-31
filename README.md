@@ -42,3 +42,106 @@ git 불필요한 revision을 뭉개 없애기
    pick 7a34523xxx "commit 메시지"
    
    pick ba98523xxx "commit 메시지" 없애고 싶은 rev을 pick 대신 fixup으로 수정 후 저장, log를 확인해보면 hash 값이 변경되어 있음 
+   
+   
+   
+   
+   
+   
+Markdown 문법
+   
+   
+  1. 헤더
+
+
+    # 대주제(h1)
+
+
+    ## 중주제(h2)
+
+
+    ### 소주제(h3)
+
+
+
+
+  2. 리스트
+
+
+    • 내용1
+
+
+    • 내용2
+        
+      • 하위내용1
+
+
+      • 하위내용2
+
+
+
+
+  i. 내용1
+
+
+    • 하위내용1
+
+
+  ii. 내용2
+
+
+    a. 하위내용2-1
+
+
+    b. 하위내용2-2
+
+
+
+
+  3. 글자 기본 포맷
+  
+   **Bold**
+   
+   
+   __Bold__
+   
+   
+   *Italic*
+   _Italic_
+   ~~Cancel~~
+
+4. 구분선 넣기
+---
+
+5. 원하는 색상 넣기
+기본적으로 문법에서는 지원 하지않는다.
+HTML 태그를 활용해야 한다.
+예) <span style=``color:red``>내용</span>
+
+6. 예제코드 넣기
+```cpp라고 적고 code를 입력한 뒤 ```로 마무리한다.
+예) #include <iostream>
+int main()
+{
+std::cout<<``Hello World!``<<std::endl;
+return 0;
+}
+
+7. 링크 넣기
+[name](주소)
+
+8. 블록 인용
+>인용구
+
+9. 표 만들기
+예
+Col1|Col2
+---|---
+aaa1|aaa2
+bbbbb1|bbbbb2
+c1|c2
+
+Col1|Col2|Col3|Col4
+---|:---|:---:|---:
+*default*|**left|center|right
+   
